@@ -54,3 +54,35 @@ body{
     height: 153px;
     margin: 5px;
 }
+.A{
+    background-image: url(assets/portfolio/work1.jpg);
+    background-size: cover;
+}
+.B{
+    background-image: url(assets/portfolio/work2.jpg);
+    background-size: cover;
+}
+.C{
+    background-image: url(assets/portfolio/work3.jpg);
+    background-size: cover;
+}
+.D{
+    background-image: url(assets/portfolio/work4.jpg);
+    background-size: cover;
+}
+.E{
+    background-image: url(assets/portfolio/work5.jpg);
+    background-size: cover;
+}
+.F{
+    background-image: url(assets/portfolio/work6.jpg);
+    background-size: cover;
+}
+.G{
+    background-image: url(assets/portfolio/work7.jpg);
+    background-size: cover;
+}
+.H{
+    background-image: url(assets/portfolio/work8.jpg);
+    background-size: cover;
+}
