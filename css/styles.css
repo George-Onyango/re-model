@@ -29,3 +29,8 @@ body{
 #sec-2{
     margin: 50px auto;
 }
+#sec-3{
+    background-image: url(assets/background/s_image.jpg);
+    color: #fff;
+    padding: 100px 10%;
+}
