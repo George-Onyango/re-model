@@ -34,3 +34,11 @@ $(document).ready(function(){
         $(".image3").show(1200);
       });
   });
+    $(document).ready(function(){
+        $('.text').hover(function () {
+        $(this).animate({opacity:'1'});
+        },
+        function () {
+        $(this).animate({opacity:'0'});
+    })
+    });
