@@ -42,3 +42,19 @@ $(document).ready(function(){
         $(this).animate({opacity:'0'});
     })
     });
+    $(document).ready(function(){
+        $("form#submission").on('submit',function(event){
+            event.preventDefault();
+            let name = $("input:first").val();
+            let email = $("input#mail").val();
+            let message = $("textarea#message").val();
+    
+            if ($("input:first").val() && $("input#mail").val()){
+                alert ("Hey " + name + ", Thanks for reaching out, we'll get back to you shortly.Your feedback is highly appreciated and valued");
+            }
+            else {
+                alert("Please provide your correct name and email!");
+            }
+            event.preventDefault();
+          })
+      });
