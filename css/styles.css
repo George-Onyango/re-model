@@ -11,3 +11,10 @@ html{
 body{
     text-align: center;
 }
+#sec-1{
+    background-image: url(assets/background/h_img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    height: 97vh;
+}
