@@ -18,3 +18,14 @@ body{
     color: #fff;
     height: 97vh;
 }
+#del{
+    padding-top: 20vh;
+    padding-bottom: 20px;
+}
+#mouse{
+    padding-top: 130px;
+    animation: bounce 2s infinite;
+}
+#sec-2{
+    margin: 50px auto;
+}
