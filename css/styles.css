@@ -34,3 +34,23 @@ body{
     color: #fff;
     padding: 100px 10%;
 }
+#sec-6 h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.p1, .p2, .p3{
+    display: none;
+}
+#sec-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70vw;
+    margin: 30px auto;
+    padding: 4.7px;
+}
+.A, .B, .C, .D, .E, .F, .G, .H{
+    width: 153px;
+    height: 153px;
+    margin: 5px;
+}
